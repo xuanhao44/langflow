@@ -8,6 +8,7 @@ on:
     branches: [ 'dev' ]
   schedule:
     - cron: '17 2 * * 1'
+  workflow_dispatch: # 允许手动点击按钮触发
 
 jobs:
   analyze:
